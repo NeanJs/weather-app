@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+        <h1 class="header">Weather App</h1>
+        <div id="form" >
+            <input type="text" id="search" placeholder="Enter city">
+            <button class="submit-btn" onclick="fetchByCity()">Search</button>
+        </div>
+        <div class="temp-card">
+          <h3 class="city">City Name</h3>
+          <img src="" id="icon"></img>
+          <h1 class="temperature"></h1>
+          <span class="feels"></span>
+        </div>
+<div class="misc">
+    <div class="add-on">
+        <span class="wind"></span>
+        <p class="">Wind</p>
+    </div>
+    <div class="add-on">
+        <span class="high"></span>
+        <p class="">High</p>
+    </div>
+    <div class="add-on">
+        <span class="low"></span>
+        <p class="">Low</p>
+    </div>
+    <div class="add-on">
+        <span class="pressure"></span>
+        <p class="">Pressure</p>
+    </div>
+    
+
+</div>
+    </div>
+    <script src="main.js"></script>
+  
+</body>
+
+</html>
